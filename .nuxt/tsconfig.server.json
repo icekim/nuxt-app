@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/reyes/nuxt3-app/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/reyes/nuxt3-app/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/reyes/nuxt3-app"
+      ],
+      "~/*": [
+        "C:/Users/reyes/nuxt3-app/*"
+      ],
+      "@": [
+        "C:/Users/reyes/nuxt3-app"
+      ],
+      "@/*": [
+        "C:/Users/reyes/nuxt3-app/*"
+      ],
+      "~~": [
+        "C:/Users/reyes/nuxt3-app"
+      ],
+      "~~/*": [
+        "C:/Users/reyes/nuxt3-app/*"
+      ],
+      "@@": [
+        "C:/Users/reyes/nuxt3-app"
+      ],
+      "@@/*": [
+        "C:/Users/reyes/nuxt3-app/*"
+      ],
+      "assets": [
+        "C:/Users/reyes/nuxt3-app/assets"
+      ],
+      "public": [
+        "C:/Users/reyes/nuxt3-app/public"
+      ],
+      "public/*": [
+        "C:/Users/reyes/nuxt3-app/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/reyes/nuxt3-app/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
